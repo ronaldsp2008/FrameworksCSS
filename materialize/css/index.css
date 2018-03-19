@@ -1,0 +1,165 @@
+
+.body  {
+  /* Ubicación de la imagen */
+  background-image: url("../../img/loro.jpeg") ;
+  /* Nos aseguramos que la imagen de fondo este centrada vertical y horizontalmente en todo momento */
+  background-position: center center;
+  /* La imagen de fondo no se repite */
+  background-repeat: no-repeat;
+  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando la altura del contenido supere la altura de la imagen. */
+  background-attachment: fixed;
+  background-size: cover;
+  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana del navegador */
+  background-size: cover;
+  /* Fijamos un color de fondo para que se muestre mientras se está cargando la imagen de fondo o si hay problemas para cargarla  */
+  background-color: #464646;
+}
+
+.bnts{
+  margin-top: 10px;
+  margin-bottom: 15px;
+/*  opacity: .5;*/
+}
+
+.barra-superior{
+  min-height: 4rem;
+}
+div[class*="columna"]{
+  min-height: 28rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+  overflow: scroll;
+}
+.columna-chat, .columna-news{
+  padding: 0 !important;
+}
+.contenedor-write-publicacion{
+  min-height: 7rem;
+}
+.contenedor-publicacion{
+  min-height: 17rem;
+}
+.circulo{
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+
+}
+.logo{
+  width: 160px;
+  margin-top: 1.5rem;
+  margin-left: 60px;
+  border-radius: 10px;
+  float: left;
+  color: inherit;
+}
+
+h5{
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 70px;
+  color: white;
+}
+#marco {
+  background: white;
+}
+.titulo{
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  margin-top: 5px;
+}
+
+.texto{
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  text-align: justify;
+
+}
+.comentarios{
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  text-align: justify;
+  background: #82b1ff ;
+}
+.contenedor-noticias{
+  margin-top: 1rem;
+  min-height: 50rem;
+  padding: 0.5rem;
+}
+.responsive-img{
+  /*border: 0.6rem solid grey;*/
+  border: 0.5rem ;
+  border-radius: 5px;
+}
+.responsive-div{
+  /*border: 0.6rem solid grey;*/
+  border: 0.5rem ;
+  border-radius: 5px;
+}
+.buscar-campo{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+.barra-superior .row{
+  margin-bottom: 0;
+}
+
+.img_centro{
+margin-top: 15px;
+width: 290px;
+height: 410px;
+
+}
+.img_centro:hover{
+  color: #ffab40;
+  margin-right: 20px;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}
+#centros{
+  width: 380px;
+  max-height: 500px;
+  float: inherit;
+}
+
+.img_costado{
+width: 380px;
+height: 250px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.imagen{
+width: 320px;
+height: 190px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.contenedor-botones{
+  right: 90vw;;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+#publicacion-texto{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  resize: none;
+  border: 1px solid #ff8f00;
+  background-color: #ff8f00;
+  height: 5rem;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .columna-grupos{
+    padding: 0 !important;
+  }
+
+}
